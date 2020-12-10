@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/girko/static/css/main.4c1777ae.chunk.css",
+    "main.css": "/girko/static/css/main.20aac37d.chunk.css",
     "main.js": "/girko/static/js/main.da6744de.chunk.js",
     "main.js.map": "/girko/static/js/main.da6744de.chunk.js.map",
     "runtime-main.js": "/girko/static/js/runtime-main.566093cf.js",
@@ -10,7 +10,7 @@
     "static/js/3.35514489.chunk.js": "/girko/static/js/3.35514489.chunk.js",
     "static/js/3.35514489.chunk.js.map": "/girko/static/js/3.35514489.chunk.js.map",
     "index.html": "/girko/index.html",
-    "static/css/main.4c1777ae.chunk.css.map": "/girko/static/css/main.4c1777ae.chunk.css.map",
+    "static/css/main.20aac37d.chunk.css.map": "/girko/static/css/main.20aac37d.chunk.css.map",
     "static/js/2.36c0986c.chunk.js.LICENSE.txt": "/girko/static/js/2.36c0986c.chunk.js.LICENSE.txt",
     "static/media/infoBar.scss": "/girko/static/media/background.5395f3c5.png",
     "static/media/facebook.f96d6146.svg": "/girko/static/media/facebook.f96d6146.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.566093cf.js",
     "static/js/2.36c0986c.chunk.js",
-    "static/css/main.4c1777ae.chunk.css",
+    "static/css/main.20aac37d.chunk.css",
     "static/js/main.da6744de.chunk.js"
   ]
 }
