@@ -20,6 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .logo {
   width: 32px;
@@ -34,6 +35,7 @@
 .nav-items {
   color: rgb(189, 189, 189);
   font-size: 14px;
+  cursor: pointer;
 }
 .nav-container {
   width: 570px;
