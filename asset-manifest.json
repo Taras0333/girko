@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/girko/static/css/main.4c1777ae.chunk.css",
+    "main.js": "/girko/static/js/main.da6744de.chunk.js",
+    "main.js.map": "/girko/static/js/main.da6744de.chunk.js.map",
+    "runtime-main.js": "/girko/static/js/runtime-main.566093cf.js",
+    "runtime-main.js.map": "/girko/static/js/runtime-main.566093cf.js.map",
+    "static/js/2.36c0986c.chunk.js": "/girko/static/js/2.36c0986c.chunk.js",
+    "static/js/2.36c0986c.chunk.js.map": "/girko/static/js/2.36c0986c.chunk.js.map",
+    "static/js/3.35514489.chunk.js": "/girko/static/js/3.35514489.chunk.js",
+    "static/js/3.35514489.chunk.js.map": "/girko/static/js/3.35514489.chunk.js.map",
+    "index.html": "/girko/index.html",
+    "static/css/main.4c1777ae.chunk.css.map": "/girko/static/css/main.4c1777ae.chunk.css.map",
+    "static/js/2.36c0986c.chunk.js.LICENSE.txt": "/girko/static/js/2.36c0986c.chunk.js.LICENSE.txt",
+    "static/media/infoBar.scss": "/girko/static/media/background.5395f3c5.png",
+    "static/media/facebook.f96d6146.svg": "/girko/static/media/facebook.f96d6146.svg",
+    "static/media/globe.e4d47e08.svg": "/girko/static/media/globe.e4d47e08.svg",
+    "static/media/instagram.1788a020.svg": "/girko/static/media/instagram.1788a020.svg",
+    "static/media/logo.a296d61b.svg": "/girko/static/media/logo.a296d61b.svg",
+    "static/media/profile-ava.5fd51ed5.jpg": "/girko/static/media/profile-ava.5fd51ed5.jpg",
+    "static/media/star.476f886b.svg": "/girko/static/media/star.476f886b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.566093cf.js",
+    "static/js/2.36c0986c.chunk.js",
+    "static/css/main.4c1777ae.chunk.css",
+    "static/js/main.da6744de.chunk.js"
+  ]
+}
