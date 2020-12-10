@@ -4,6 +4,7 @@ import Profile from '../assets/profile-ava.jpg';
 import facebook from '../assets/icons/facebook.svg';
 import globe from '../assets/icons/globe.svg';
 import instagram from '../assets/icons/instagram.svg';
+import star from '../assets/icons/star.svg';
 
 export default function InfoView() {
     return (
@@ -35,12 +36,21 @@ export default function InfoView() {
                             <div className='status-cont'>
                                 <span className='status'>PRO</span>
                             </div>
-                        </div>
+                        </div> 
                         <div className='rewiev-wrap'>
+                            <div className='star-wrap'>
+                                <img className='star-icon' src={star} alt='star icon'/>
+                                <img className='star-icon' src={star} alt='star icon'/>
+                                <img className='star-icon' src={star} alt='star icon'/>
+                                <img className='star-icon' src={star} alt='star icon'/>
+                                <img className='star-icon' src={star} alt='star icon'/>
+                            </div>
                             <span className='rewiev'>Залишити відгук</span>
                         </div>
                     </div>
-                    <div className='right-bottom'></div>
+                    <div className='right-bottom'>
+                        <div className='info-cont'></div>
+                    </div>
                 </div>
              </div>
         </div>
