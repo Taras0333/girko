@@ -160,6 +160,7 @@
   color: $text;
   font-size: 13px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
 }
 .right-bottom {
   width: 100%;
@@ -179,4 +180,111 @@
   background-color: rgba(0, 0, 0, 0.2);
   color: $text;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.info-cont-left-right {
+  height: 80%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 4px;
+}
+
+.info-cont-left {
+  width: 90%;
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.info-cont-top {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.info-cont-top-item {
+  width: 31%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.spot-icon,
+.tag-icon {
+  width: 12px;
+  margin-right: 5px;
+}
+.cities,
+.photografers {
+  font-size: 13px;
+  margin-right: 2px;
+}
+.photografers-element {
+  margin-top: 8px;
+}
+.cities:last-child {
+  margin-right: 0px;
+}
+.phone-title,
+.price-title {
+  font-size: 11px;
+}
+.info-cont-mid {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+.info-cont-mid-item {
+  width: 31%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+}
+.phone {
+  font-size: 26px;
+  cursor: pointer;
+}
+.price {
+  font-size: 26px;
+}
+.info-cont-right {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.heart {
+  width: 54px;
+  height: 49px;
+  margin-top: 26px;
+  background-image: url(../assets//icons/heart.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+.info-cont-bottom {
+  width: 100%;
+  height: 20%;
+  box-sizing: border-box;
+  display: flex;
+}
+.info-cont-disc {
+  font-size: 13px;
+  margin-left: 15px;
 }

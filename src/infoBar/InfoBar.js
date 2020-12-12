@@ -5,6 +5,9 @@ import facebook from '../assets/icons/facebook.svg';
 import globe from '../assets/icons/globe.svg';
 import instagram from '../assets/icons/instagram.svg';
 import star from '../assets/icons/star.svg';
+import spot from '../assets/icons/spot.svg';
+import tag from '../assets/icons/tag.svg';
+import heart from '../assets/icons/heart.svg';
 
 export default function InfoView() {
     return (
@@ -49,7 +52,47 @@ export default function InfoView() {
                         </div>
                     </div>
                     <div className='right-bottom'>
-                        <div className='info-cont'></div>
+                        <div className='info-cont'>
+                            <div className='info-cont-left-right'>
+                                <div className='info-cont-left'>
+                                    <div className='info-cont-top'>
+                                        <div className='info-cont-top-item'>
+                                            <img className='spot-icon' src={spot} alt='spot icon'/>
+                                            <span className='cities'>Київ,</span>
+                                            <span className='cities'>Львів, </span>
+                                            <span className='cities'>Івано-Франківськ,</span>
+                                            <span className='cities'>Тернопіль</span>
+                                        </div>
+                                        <div className='info-cont-top-item'>
+                                            <span className='phone-title'>телефон:</span>
+                                        </div>
+                                        <div className='info-cont-top-item'>
+                                            <span className='price-title'>ціна від:</span>
+                                        </div>
+                                    </div>
+                                    <div className='info-cont-mid'>
+                                        <div className='info-cont-mid-item'>
+                                            <img className='tag-icon photografers-element' src={tag} alt='tag icon'/>
+                                            <span className='photografers photografers-element'>{'Фотографи'}</span>
+                                        </div>
+                                        <div className='info-cont-mid-item'>
+                                            <span className='phone'>{'(067) 208-37-00'}</span>
+                                        </div>
+                                        <div className='info-cont-mid-item'>
+                                            <span className='price'>{10000 + ' грн'}</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div className='info-cont-right'>
+                                    {/* <img className='heart' src={heart} alt='heart icon'/> */}
+                                    <span className='heart'>{350}</span>
+                                </div>
+                            </div>
+                            <div className='info-cont-bottom'>
+                                <span className='info-cont-disc'>{'Найкращі моменти Вашого весілля у стильному виконанні. Аерозйомка у подарунок.'}</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
              </div>

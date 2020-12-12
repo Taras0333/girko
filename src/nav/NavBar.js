@@ -11,7 +11,7 @@ export default function NavView() {
                     <span className='title text'>GIRKO</span>
                 </div>
                 <div className='nav-container'>
-                    <span className='nav-items'>Фотографи</span>
+                    <span className='nav-items' style={{borderBottom: '3px solid rgb(218, 50, 146)'}}>Фотографи</span>
                     <span className='nav-items'>Відеооператори</span>
                     <span className='nav-items'>Музиканти</span>
                     <span className='nav-items'>Ведучі</span>

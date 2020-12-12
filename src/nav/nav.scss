@@ -34,8 +34,20 @@
 }
 .nav-items {
   color: rgb(189, 189, 189);
+  padding: 0px 15px;
   font-size: 14px;
   cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.nav-items:hover {
+  background-color: #71717159;
+}
+.nav-items:active {
+  border-bottom: 3px solid $pink;
 }
 .nav-container {
   width: 570px;
